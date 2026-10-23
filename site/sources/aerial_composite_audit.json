@@ -1,0 +1,47 @@
+{
+  "site": "foster_brook",
+  "created_utc": "2026-10-22T20:37:48.868445+00:00",
+  "operation": "Authoritative NYS ortho RGBA reprojected to exact pan bounds over prepared terrain",
+  "source": "sites/foster_brook/context/aerial_2021_rgba.png",
+  "source_receipt": "sites/foster_brook/context/imagery_rgba_extent.json",
+  "source_export_url": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2021/MapServer/export?f=json&bbox=671300.8641987437%2C4736207.306591368%2C676350.8641987437%2C4740467.306591368&bboxSR=32617&imageSR=32617&size=4096%2C3455&format=png32&dpi=96&transparent=true&adjustAspectRatio=false",
+  "source_sha256": "b768db688e7372ac60bde25d9ccab7fa8b8ccd97ca87a145aa266c21c2debaa6",
+  "source_bounds": [
+    671300.6890902055,
+    4736207.306591368,
+    676351.0393072822,
+    4740467.306591368
+  ],
+  "source_size": [
+    4096,
+    3455
+  ],
+  "crs": "EPSG:32617",
+  "pan_bounds": [
+    671300.8641987437,
+    4736207.306591368,
+    676350.8641987437,
+    4740467.306591368
+  ],
+  "output_size": [
+    5050,
+    4260
+  ],
+  "resampling": "GDAL bilinear with src_alpha=4 and dst_alpha=4",
+  "alpha_provenance": "Authoritative ArcGIS export alpha from transparent=true and format=png32. No white/color threshold applied.",
+  "white_pixel_heuristic": false,
+  "transparent_output_pixels": 11484558,
+  "opaque_output_pixels": 10028442,
+  "terrain_preserved_before_lossy_encoding": true,
+  "opaque_source_preserved_before_lossy_encoding": true,
+  "background_sha256": "81d37fdeb239ad347562acfc1bf21781be8cc19c03081a0dea2d1d98293035ac",
+  "previous_derived_aerial_sha256": "6f3b851349c54b76fb84cb3e740befca05690e3bb2819b041b1aa139b3e3da6d",
+  "output": "packages/foster_brook/site/assets/aerial_2021.jpg",
+  "output_sha256": "2509f44149e2064aa71023860f587398a535649cd9d9401864299a42a0a9417e",
+  "jpeg_quality": 95,
+  "original_jpeg_preserved": true,
+  "protected_sources_modified": false,
+  "attribution": "2021 orthoimagery: NYS ITS Geospatial Services",
+  "terms_url": "https://gis.ny.gov/orthoimagery",
+  "temporal_note": "Context imagery, not evidence of November 2020 flooding."
+}

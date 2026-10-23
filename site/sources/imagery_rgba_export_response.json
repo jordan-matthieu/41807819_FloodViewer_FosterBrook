@@ -1,0 +1,16 @@
+{
+  "href": "http://orthos.its.ny.gov/arcgis/rest/directories/arcgisoutput/wms/2021_MapServer/_ags_map5d58ba3796a8483dae6177c0543a6dd3.png",
+  "width": 4096,
+  "height": 3455,
+  "extent": {
+    "xmin": 671300.6890902055,
+    "ymin": 4736207.306591368,
+    "xmax": 676351.0393072822,
+    "ymax": 4740467.306591368,
+    "spatialReference": {
+      "wkid": 32617,
+      "latestWkid": 32617
+    }
+  },
+  "scale": 4660.131751085399
+}
